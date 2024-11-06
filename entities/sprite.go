@@ -5,6 +5,6 @@ import (
 )
 
 type Sprite struct {
-	Img  *ebiten.Image
-	X, Y float64
+	Img          *ebiten.Image
+	X, Y, Dx, Dy float64
 }
